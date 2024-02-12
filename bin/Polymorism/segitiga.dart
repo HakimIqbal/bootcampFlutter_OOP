@@ -3,17 +3,13 @@ import 'bangun_datar.dart';
 class Segitiga extends BangunDatar {
   late double _alas;
   late double _tinggi;
-  late double _sisiA;
-  late double _sisiB;
-  late double _sisiC;
+  late double _miring;
 
   Segitiga(
-      double alas, double tinggi, double sisiA, double sisiB, double sisiC) {
+      double alas, double tinggi, double miring) {
     _alas = alas;
     _tinggi = tinggi;
-    _sisiA = sisiA;
-    _sisiB = sisiB;
-    _sisiC = sisiC;
+    _miring = miring;
   }
 
   @override
@@ -23,6 +19,6 @@ class Segitiga extends BangunDatar {
 
   @override
   double hitungKeliling() {
-    return _sisiA + _sisiB + _sisiC;
+    return _alas + _tinggi + _miring ;
   }
 }
