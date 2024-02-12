@@ -16,7 +16,7 @@ void main() {
   print('Luas Persegi: ${persegi.hitungLuas()}');
   print('Keliling Persegi: ${persegi.hitungKeliling()}');
 
-  Segitiga segitiga = Segitiga(3, 4, 3, 4, 5);
+  Segitiga segitiga = Segitiga(3, 4, 5);
   print('Luas Segitiga: ${segitiga.hitungLuas()}');
   print('Keliling Segitiga: ${segitiga.hitungKeliling()}');
 }
