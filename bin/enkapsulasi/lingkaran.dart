@@ -1,7 +1,9 @@
-//class rumus lingkaran
+//Deklarasi Kelas Lingkaran
 class Lingkaran {
+  //Variabel Anggota JariJari
   double JariJari = 0.0;
 
+  //Metode untuk mengatur nilai jari-jari
   setJariJari(double value) {
     if (value < 0) {
       JariJari = value * -1;
@@ -10,5 +12,6 @@ class Lingkaran {
     }
   }
 
-  double get luas => 3.14 * JariJari *JariJari;
+  //Properti yang mengembalikan nilai luas lingkaran
+  double get luas => 3.14 * JariJari * JariJari;
 }

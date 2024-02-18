@@ -1,6 +1,6 @@
-// titan.dart
+// Mendefinisikan kelas Titan dengan properti _powerPoint
 class Titan {
-  int _powerPoint = 0; // Initialize with a default value
+  int _powerPoint = 0;
 
   int get powerPoint => _powerPoint;
 

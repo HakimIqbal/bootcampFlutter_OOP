@@ -1,11 +1,14 @@
+// Mengimpor file-file
 import 'employee.dart';
 
 void main() {
+  // Empat objek Employee
   Employee employee1 = Employee(41220559, 'Iqbal Hakim', 'Fise');
   Employee employee2 = Employee(41220558, 'Fikri', 'Fise');
   Employee employee3 = Employee(41220555, 'Krisnata', 'Finance');
   Employee employee4 = Employee(41220553, 'Mikail', 'Finance');
 
+  // Menampilkan Employee
   print('Employee 1:');
   print('ID: ${employee1.id}');
   print('Name: ${employee1.name}');

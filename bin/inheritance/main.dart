@@ -1,23 +1,23 @@
-// main.dart
+// Mengimpor file-file yang berisi definisi kelas-kelas
 import 'armor_titan.dart';
 import 'attack_titan.dart';
 import 'beast_titan.dart';
 import 'human_titan.dart';
 
 void main() {
-  // Create instances of each class
+  // Membuat instance dari empat kelas yang berbeda
   ArmorTitan armorTitan = ArmorTitan();
   AttackTitan attackTitan = AttackTitan();
   BeastTitan beastTitan = BeastTitan();
   Human human = Human();
 
-  // Set power points
+  // Memberikan nilai pada properti powerPoint
   armorTitan.powerPoint = 3;
   attackTitan.powerPoint = 7;
   beastTitan.powerPoint = 2;
   human.powerPoint = 8;
 
-  // Display power points and actions
+  // Mencetak nilai dan hasil pemanggilan metode untuk setiap instance.
   print('Armor Titan Power Point: ${armorTitan.powerPoint}');
   print('Armor Titan Action: ${armorTitan.terjang()}');
 
